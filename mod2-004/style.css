@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+
+TUDO QUE EM HTML É ID EM CSS É #
+TUDO QUE EM HTML É CLASS EM CSS É .
+
+*/
+
+body {
+    background-color: #00d184;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color:#006B44 ;
+    color: #00D184;
+}
+
+#principal { 
+    text-align: center;
+
+}
+
+h2 {
+    color:#006B44;
+}
+
+.basic { 
+    color: green
+}
+
+.med {
+    color: yellow;
+}
+
+.advan {
+    color: red;
+}

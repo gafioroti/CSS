@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        #git::after {
+            content:' [link]';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/gafioroti/" target="_blank" rel="external">Instagram</a></li>
+        <li><a href="https://twitter.com/gafioroti" target="_blank"rel="external">Twitter</a></li>
+        <li><a href="https://github.com/gafioroti" target="_blank" rel="external" id="git">GitHub</a></li>
+    </ul>
+</body>
+</html>
